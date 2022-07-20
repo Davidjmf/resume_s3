@@ -35,7 +35,7 @@
             intraday/historical database for systematic trading desk
           </p>
           <p>
-            Technical Skills: Python, Bash, Linux, Git, AWS, Gitlab CI, Github Actions
+            Technical Skills: q/kdb+, Python, Bash, Linux, Git, AWS, Gitlab CI
           </p>
         </div> <!-- end description -->
       </section>
@@ -57,19 +57,29 @@
                 <span class="field">q/kdb+ Developer</span> <span class="date">Oct 2019 - Present</span>
               </div>
               <p class="description">
-                Worked as part of KX's Customer Success team to deliver KX Refinery implementation to both Analytics and
-                Systematic Trading departments at PIMCO.
+                Part of global team of developers responsible for PIMCO's cross-asset market data store, containing both
+                historical and intra-day ticks - KXR. Coverage includes fixed income, futures, FX, and equity market
+                data. Responsibilities included:
               </p>
 
               <ul>
-                <li>Rewrote entire Refinitiv historical and nightly EOD tick data ingestion pipeline -
-                  leverarging both python (joblib, requests), and q/kdb+</li>
-                <li>Oversaw intraday recovery implementation for intraday bar computation, delivering
-                  robustness to real-time subscriptions for Systematic Trading needs</li>
-                <li>Coordinated with business users and Operations teams to implement process & data-level monitoring
+                <li>Designing end-to-end historical and nightly EOD tick data ingestion pipeline from Refinitiv -
+                  leverarging both python (joblib, requests), and q/kdb+ to 20+ years of futures, FX,
+                  and equity data</li>
+                <li>Implementing intraday recovery for real-time bar computation, improving system
+                  robustness for real-time subscriptions for Systematic Trading needs</li>
+                <li>Developing real-time availability and quality monitor - alerting downstream models of potential data
+                  issues</li>
+                <li>Coordinating with quants and support teams to implement daily monitoring systems - delivering
+                  reliable EOD data, meeting strict SLAs used across the firm.
                 </li>
-                <li>Something here about backend for "Signal Dashboard" - allowed Analytics teams and trader to view
-                  X,Y,Z
+                <li>Upgrading KX Refinery implementation from version 4.2 to 5.3 - which included migrating processes,
+                  improving
+                  APIs,
+                  and streamlining functionality</li>
+                <li>Building backend for "Signals" framework, which allows desk/quants to add various time series
+                  signals
+                  to KX Dashboard
                 </li>
               </ul>
 
@@ -84,25 +94,26 @@
         <div class="meta">
           <span class="field">q/kdb+ Developer</span> <span class="date">Jun 2017 - Sept 2019</span>
         </div>
-        <p class="description">Part of a team of developers responsible for the support and maintenance of tick data
+        <p class="description">Part of a small team of developers responsible for the support and maintenance of tick
+          data
           platform that automates SEC compliance calculations and aids in FINRA reporting through GUI platform.
           Responsibilities included:</p>
         <ul>
           <li>
-            Utilised expertise in q/kdb+ to deliver backend for user-defined custom report and financial statement
+            Utilising expertise in q/kdb+ to deliver backend for user-defined custom report and financial statement
             infrastructure, automating report creation, and cross-environment comparison testing
           </li>
           <li>
-            Established automated archival interface (via: q & bash) that allow users to interact with the internal
+            Establishing automated archival interface (via: q & bash) that allow users to interact with the internal
             system via a file drop system
           </li>
           <li>
-            Developed corresponding archival submission status logging system, along with automated weekly & monthly
+            Developing corresponding archival submission status logging system, along with automated weekly & monthly
             reports on
             submission status of hundreds of files being submitted by users
           </li>
           <li>
-            Set up prod-parallel environment to improve reliability of pre-production testing and deployment
+            Setting up prod-parallel environment to improve reliability of pre-production testing and deployment
           </li>
         </ul>
       </section> <!-- end project description -->
@@ -114,19 +125,20 @@
         <div class="meta">
           <span class="field">q/kdb+ Developer</span> <span class="date">Nov 2016 - May 2017</span>
         </div>
-        <p class="description">Joined a team of developers responsible for maintaining a 24hr x 5.5 day tick data
-          storage user for algorithmic index evolution.
+        <p class="description">Worked with development, and support teams to maintain a 24x5 day tick data
+          storage used for algorithmic index evolution.
         </p>
         <ul>
           <li>
-            Repsonsible for ensuring arrival of 3rd party data for UTC morning SLAs - included triaging number of
+            Largely repsonsible for ensuring arrival of 3rd party data for UTC morning SLAs - included triaging number
+            of
             ingestions issues, interacting with vendor support teams
           </li>
           <li>
-            Continuous additions and bug fixes to API used to access data
+            Developing daily comparison report between main vendor sources - used to highlight data quality issues
           </li>
           <li>
-            Developed daily comparison report between main vendor sources - used to highlight data quality issues
+            Constantly adding features and bug fixes for API used to access data
           </li>
         </ul>
       </section> <!-- end project description -->
